@@ -1,17 +1,35 @@
-import React, { Component } from "react";
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import Home from "./pages/Home";
+import Project from "./pages/Project";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 
-class App extends Component {
-  render() {
-    return (
+function App() {
+  return (
+    <Router>
       <div>
         <NavBar />
-        <p>Hello World</p>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/projects">
+          <Project />
+        </Route>
+        <Route exact path="/gallery">
+          <Gallery />
+        </Route>
+        <Route exact path="/contact">
+          <Contact />
+        </Route>
         <Footer />
       </div>
-    );
-  }
+    </Router>
+
+  );
 }
+
 
 export default App;
