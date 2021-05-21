@@ -5,7 +5,9 @@ function Footer() {
 
     return (
         <footer>
-            <p>Website made by Greg Harris || Copyright © {currentYear}</p>
+            <dvi class="jumbotron text-center font-italic" style="margin-bottom:30px">
+                <p>Website made by Greg Harris || Copyright © {currentYear}</p>
+            </dvi>
         </footer>
     );
 }
