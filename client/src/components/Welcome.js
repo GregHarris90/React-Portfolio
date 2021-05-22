@@ -6,7 +6,7 @@ function Welcome() {
         <div>
             <main>
 
-                <div style="background:transparent" class="container " style="margin:auto;">
+                <div class="container">
                     <div class="text-center">
                         <div class="row">
                             <div class="col-md-12">

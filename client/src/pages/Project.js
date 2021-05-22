@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project(props) {
+function Project() {
     return (
         <div>
 

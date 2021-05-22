@@ -4,7 +4,7 @@ function About() {
 
     return (
         <div>
-            <div class="container card border" style="margin-top:30px">
+            <div class="container card border">
 
                 <div class="row">
                     <div class="col-sm">
@@ -17,18 +17,18 @@ function About() {
                 </div>
 
                 <div id="aboutme">
-                    <div class="container card" style="margin-top:5px">
-                        <div class="row" style="margin:15px">
+                    <div class="container card">
+                        <div class="row">
 
-                            <div class="col-sm-4" style="margin-bottom:35px">
+                            <div class="col-sm-4">
                                 <div>
                                     <img src="../Responsive-Portfolio/Images/gyrgyrhgrh 028.jpg" class="img-thumbnail"
-                                        alt="My Picture"/>
+                                        alt=""/>
                                 </div>
                             </div>
 
                                 <div class="col-sm-8">
-                                    <h2 style="margin-bottom:30px;">My Story</h2>
+                                    <h2>My Story</h2>
                                     <p>Hello, my name is Greg Harris. Most of my life I grew up in Bothell, but at this time I live
                                     in
                                     Lynnwood Washington. Also I'm currently a student with the UW Bothell Coding Bootcamp. I
@@ -64,3 +64,5 @@ function About() {
             </div>
     )
 }
+
+export default About;
