@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <footer>
-            <div class="jumbotron text-center font-italic">
+            <div className="jumbotron text-center font-italic">
                 <p>Website made by Greg Harris || Copyright © {currentYear}</p>
             </div>
         </footer>

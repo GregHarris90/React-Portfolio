@@ -7,7 +7,6 @@ function Home() {
         <div>
             <Welcome />
             <About />
-
         </div>
     )
 }

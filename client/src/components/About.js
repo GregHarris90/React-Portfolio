@@ -1,33 +1,34 @@
 import React from "react";
+import Photo1 from "../Images/gyrgyrhgrh 028.jpg";
 
 function About() {
 
     return (
         <div>
-            <div class="container card border">
+            <div className="container card border">
 
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="text-uppercase">
-                            <div class="card-body">
-                                <h1 class="text-primary">About Me:</h1>
+                <div className="row">
+                    <div className="col-sm">
+                        <div className="text-uppercase">
+                            <div className="card-body">
+                                <h1 className="text-primary">About Me:</h1>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div id="aboutme">
-                    <div class="container card">
-                        <div class="row">
+                    <div className="container card">
+                        <div className="row">
 
-                            <div class="col-sm-4">
+                            <div className="col-sm-4">
                                 <div>
-                                    <img src="../Responsive-Portfolio/Images/gyrgyrhgrh 028.jpg" class="img-thumbnail"
+                                    <img src={Photo1} className="img-thumbnail"
                                         alt=""/>
                                 </div>
                             </div>
 
-                                <div class="col-sm-8">
+                                <div className="col-sm-8">
                                     <h2>My Story</h2>
                                     <p>Hello, my name is Greg Harris. Most of my life I grew up in Bothell, but at this time I live
                                     in
@@ -44,7 +45,7 @@ function About() {
                         </p>
                                 </div>
 
-                                <div class="col-md-12">
+                                <div className="col-md-12">
                                     <p>Looking to the future I hope to become a successful and competent programmer. Using these
                                     newly acquired skills
                                     to build a career and slowly move away from my current job. Not that I don't love the people
@@ -53,7 +54,7 @@ function About() {
                                     greater things!
                         </p>
 
-                                    <p class="text-primary font-italic">Thank you for checking
+                                    <p className="text-primary font-italic">Thank you for checking
                                     out my portfolio and I hope to hear from you soon!
                         </p>
                                 </div>
