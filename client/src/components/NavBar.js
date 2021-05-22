@@ -19,10 +19,10 @@ return(
                     <a class="nav-link" href="/projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" >Gallery</a>
+                    <a class="nav-link" href="/gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" >Contact</a>
+                    <a class="nav-link" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
