@@ -1,18 +1,16 @@
 import React from "react";
 
-function Project() {
+function Project(props) {
     return(
         <div>
             <div class="card">
-                    <img src="./Images/GP 1.PNG" class="card-img-top" alt="Group-Project-1"/>
+                    <img src={props.image} class="card-img-top" alt="Group-Project-1"/>
                     <div class="card-body">
-                        <h5 class="card-title">Meal Planner (Group Project)</h5>
-                        <p class="card-text">This web application helps the user plan
-                            their meals by searching for a recipe and drink, then save that
-                            information to a calendar for the week.</p>
-                        <a href="https://rsowald.github.io/MealPlanner/">Deployed Project</a>
+                        <h5 class="card-title">{props.title}</h5>
+                        <p class="card-text">{props.description}</p>
+                        <a href={props.deployed}>Deployed Project</a>
                         <br/>
-                        <a href="https://github.com/rsowald/MealPlanner">GitHub Repository</a>
+                        <a href={props.github}>GitHub Repository</a>
                     </div>
                 </div>
         </div>
