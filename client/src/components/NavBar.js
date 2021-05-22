@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/Greg Harris - Resume.pdf";
 
 function NavBar() {
 
@@ -27,7 +28,7 @@ return(
             </ul>
         </div>
         <span className="navbar-text text-primary" id="Resume">
-            <a href="./assets/Greg Harris - Resume.pdf">View My Resume</a>
+            <a href={Resume}>View My Resume</a>
         </span>
     </nav>
 </header>

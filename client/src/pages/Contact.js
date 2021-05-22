@@ -1,10 +1,10 @@
 import React from "react";
-import Contact from ""
+import Message from "../components/Message";
 
 function Contact() {
     return(
         <div>
-            <Contact />
+            <Message />
         </div>
     )
 }
