@@ -1,21 +1,27 @@
 import React from "react";
 
-// function Project(props) {
+function Project(props) {
 
-//     return (
-//         <div>
-//             <div class="card">
-//                 <img src={props.image} class="card-img-top" alt="Group-Project-1" />
-//                 <div class="card-body">
-//                     <h5 class="card-title">{props.title}</h5>
-//                     <p class="card-text">{props.description}</p>
-//                     <a href={props.deployed}>Deployed Project</a>
-//                     <br />
-//                     <a href={props.github}>GitHub Repository</a>
-//                 </div>
-//             </div>
-//         </div>
-//     )
-// }
+    return (
+        <div>
+            <div className="container card" id="project">
+                <div className="card-deck">
+
+                    {props.projects.map(item => (<div className="card">
+                        <img src={item.image} className="card-img-top" alt="Group-Project-1" />
+                        <div className="card-body">
+                            <h5 className="card-title">{item.title}</h5>
+                            <p className="card-text">{item.description}</p>
+                            <a href={item.deployed}>Deployed Project</a>
+                            <br />
+                            <a href={item.github}>GitHub Repository</a>
+                        </div>
+                    </div>))}
+
+                </div>
+            </div>
+        </div>
+    )
+}
 
 export default Project;

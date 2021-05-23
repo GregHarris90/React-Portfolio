@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
-import Project from "./pages/Project";
+import Projects from "./pages/Projects";
 import Gallery from "./pages/Gallery";
 import Contact from "./pages/Contact";
 import "./styles.css";
@@ -17,7 +17,7 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/projects">
-          <Project />
+          <Projects />
         </Route>
         <Route exact path="/gallery">
           <Gallery />
