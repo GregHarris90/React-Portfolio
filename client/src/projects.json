@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../Images/GP 1.PNG",
+        "image": "./Images/GP 1.PNG",
         "title": "Meal Planner (Group Project)",
         "description": "This web application helps the user plan their meals by searching for a recipe and drink, then save that information to a calendar for the week.",
         "deployed": "https://rsowald.github.io/MealPlanner/",
