@@ -14,13 +14,16 @@ function Photos(props) {
                     <div class="col-md-4">
 
                         <div class="thumbnail">
-                            <a href={props.link}
+                            {props.photos.map(item => (
+                                <a href={item.link}
                                 target="_blank">
-                                <img src={props.image}
-                                    alt={props.name} />
+                                <img src={item.image}
+                                    alt={item.name} />
                                 <div class="caption" />
-                                <p>{props.description}</p>
+                                <p>{item.description}</p>
                             </a>
+                            ))}
+                            
                         </div>
                     </div>
                 </div>
