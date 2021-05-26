@@ -4,27 +4,27 @@ function Photos(props) {
 
     return (
         <div>
-            <div class="container card body">
-                <h2 class="text-uppercase text-primary">Image Gallery:</h2>
+            <div className="container card body">
+                <h2 className="text-uppercase text-primary">Image Gallery:</h2>
 
-                <p class="font-italic">Click to enlarge images!</p>
+                <p className="font-italic">Click to enlarge images!</p>
 
-                <div class="row">
+                <div className="row">
 
-                    <div class="col-md-4">
+                    <div className="col-md-4">
 
-                        <div class="thumbnail">
-                            {props.photos.map(item => (
-                                <a href={item.link}
-                                target="_blank">
-                                <img src={item.image}
-                                    alt={item.name} />
-                                <div class="caption" />
-                                <p>{item.description}</p>
-                            </a>
-                            ))}
-                            
-                        </div>
+                        {props.photos.map(item => (
+                            <div className="thumbnail" key={item.id}>
+                                <a href={item.link} rel="noopener noreferrer"
+                                    target="_blank">
+                                    <img src={item.image}
+                                        alt={item.name} />
+                                    <div className="caption" />
+                                    <p>{item.description}</p>
+                                </a>
+                            </div>
+                        ))}
+
                     </div>
                 </div>
             </div>

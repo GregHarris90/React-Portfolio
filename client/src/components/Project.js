@@ -8,7 +8,7 @@ function Project(props) {
                 <div className="card-deck">
 
                     {props.projects.map(item => (<div className="card" key={item.id}>
-                        <img src={item.image} className="card-img-top" alt={item.id} />
+                        <img src={require(item.image)} className="card-img-top" alt={item.id} />
                         <div className="card-body">
                             <h5 className="card-title">{item.title}</h5>
                             <p className="card-text">{item.description}</p>
