@@ -4,7 +4,7 @@ function Photos(props) {
 
     return (
         <div>
-            <div className="container card body">
+            <div className="container card body photos">
                 <h2 className="text-uppercase text-primary">Image Gallery:</h2>
 
                 <p className="font-italic">Click to enlarge images!</p>

@@ -1,6 +1,6 @@
 import React from "react";
 import Photos from "../components/Photos";
-import photos from "../photos.json";
+import photos from "../photos.js";
 
 function Gallery() {
     return(

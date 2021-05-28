@@ -5,6 +5,12 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+img {
+    width: 450px;
+    height: inherit;
+}
+
 #Portfolio {
     color: white;
     border-color: white;
