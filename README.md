@@ -31,7 +31,16 @@ https://gregharris90.github.io/React-Portfolio/
 *IMAGES BELOW*
 
 *Main-Page*
- <!-- insert images -->
+![Main-Page](https://user-images.githubusercontent.com/73864182/119945540-736de880-bf4a-11eb-84a5-afeab8d219b9.png)
+
+*Project-Page*
+![Project-Page](https://user-images.githubusercontent.com/73864182/119945545-749f1580-bf4a-11eb-8f0c-e529f55c066d.png)
+
+*Gallery-Page*
+![Gallery-Page](https://user-images.githubusercontent.com/73864182/119945554-7537ac00-bf4a-11eb-909f-dcde63c0924c.png)
+
+*Contact-Page*
+![Contact-Page](https://user-images.githubusercontent.com/73864182/119945549-7537ac00-bf4a-11eb-892f-42e05853e672.png)
 
 *END OF APPLICATION*
 
@@ -42,4 +51,4 @@ https://gregharris90.github.io/React-Portfolio/
 
 # Conclusion
 
-- Overall this project was difficult as I'm still learning and getting better at using React. Reformatting all of my html into jsx and then using components recreate my portfolio was definitely a challenge for me. I'm also having issues with deploying it and hope to fix it soon! 
+- Overall this project was difficult as I'm still learning and getting better at using React. Reformatting all of my html into jsx and then using components recreate my portfolio was definitely a challenge for me. I'm also having issues with deploying it and hope to fix it soon and hope to spend more time on this later to polish up the styling. 
