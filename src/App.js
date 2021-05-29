@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div>
         <NavBar />
-        <Route exact path="/">
+        <Route exact path="/React-Portfolio/">
           <Home />
         </Route>
         <Route exact path="/projects">
