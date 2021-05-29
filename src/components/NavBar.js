@@ -8,7 +8,7 @@ const history = useHistory();
 return(
     <header>
     <nav className="navbar navbar-expand-lg top-fixed bg-dark navbar-dark">
-        <span className="navbar-brand" onClick={event => history.push("/")}>Greg Harris</span>
+        <span className="navbar-brand" onClick={event => history.push("/React-Portfolio/")}>Greg Harris</span>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@ return(
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <span className="nav-link" onClick={event => history.push("/")}>About</span>
+                    <span className="nav-link" onClick={event => history.push("/React-Portfolio/")}>About</span>
                 </li>
                 <li className="nav-item">
                     <span className="nav-link" onClick={event => history.push("/projects")}>Projects</span>
